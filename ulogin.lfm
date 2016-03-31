@@ -3,6 +3,6 @@ object Form1: TForm1
   Height = 404
   Top = 224
   Width = 701
-  Caption = 'Form1'
+  Caption = 'Login'
   LCLVersion = '1.6.0.4'
 end
