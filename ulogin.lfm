@@ -82,6 +82,7 @@ object frmLogin: TfrmLogin
     Width = 75
     Caption = 'Entrar'
     Font.Height = -16
+    OnClick = btnEntrarClick
     ParentFont = False
     TabOrder = 1
   end

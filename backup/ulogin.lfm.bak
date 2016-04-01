@@ -75,7 +75,7 @@ object frmLogin: TfrmLogin
       TabOrder = 1
     end
   end
-  object Button1: TButton
+  object btnEntrar: TButton
     Left = 40
     Height = 33
     Top = 192
@@ -85,14 +85,14 @@ object frmLogin: TfrmLogin
     ParentFont = False
     TabOrder = 1
   end
-  object Button2: TButton
+  object btnCancelar: TButton
     Left = 184
     Height = 33
     Top = 192
     Width = 75
     Caption = 'Cancelar'
     Font.Height = -16
-    OnClick = Button2Click
+    OnClick = btnCancelarClick
     ParentFont = False
     TabOrder = 2
   end

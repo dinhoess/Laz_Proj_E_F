@@ -5,7 +5,7 @@ unit uLogin;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls, uPrincipal;
 
 type
 
@@ -20,6 +20,7 @@ type
     Label1: TLabel;
     Label2: TLabel;
     procedure btnCancelarClick(Sender: TObject);
+    procedure btnEntrarClick(Sender: TObject);
   private
     { private declarations }
   public
@@ -38,6 +39,12 @@ implementation
 procedure TfrmLogin.btnCancelarClick(Sender: TObject);
 begin
   Application.Terminate;
+end;
+
+procedure TfrmLogin.btnEntrarClick(Sender: TObject);
+begin
+   frmPrincipal.Show;
+   frmLogin.Hide;
 end;
 
 end.
