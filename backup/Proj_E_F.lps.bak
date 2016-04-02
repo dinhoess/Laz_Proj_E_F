@@ -4,12 +4,12 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="Proj_E_F.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="28"/>
       </Unit0>
       <Unit1>
         <Filename Value="ulogin.pas"/>
@@ -20,7 +20,7 @@
         <UnitName Value="uLogin"/>
         <TopLine Value="22"/>
         <CursorPos X="28" Y="41"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -28,18 +28,30 @@
         <Filename Value="uprincipal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="15"/>
-        <CursorPos X="24" Y="44"/>
-        <UsageCount Value="22"/>
+        <TopLine Value="18"/>
+        <CursorPos X="24" Y="47"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="uformpadrao1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPadrao1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFormPadrao1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
     </Units>
-    <JumpHistory Count="17" HistoryIndex="16">
+    <JumpHistory Count="21" HistoryIndex="20">
       <Position1>
         <Filename Value="ulogin.pas"/>
       </Position1>
@@ -105,6 +117,21 @@
         <Filename Value="uprincipal.pas"/>
         <Caret Line="43" Column="24" TopLine="15"/>
       </Position17>
+      <Position18>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="44" Column="24" TopLine="15"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="45" Column="24" TopLine="16"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="46" Column="24" TopLine="17"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uformpadrao1.pas"/>
+      </Position21>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

@@ -22,6 +22,8 @@ type
     MenuItem5: TMenuItem;
     SpeedButton1: TSpeedButton;
     SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
   private
     { private declarations }
