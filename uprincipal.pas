@@ -26,6 +26,7 @@ type
     SpeedButton4: TSpeedButton;
     SpeedButton5: TSpeedButton;
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
+    procedure SpeedButton1Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -45,6 +46,11 @@ procedure TfrmPrincipal.FormClose(Sender: TObject; var CloseAction: TCloseAction
   );
 begin
   Application.Terminate;
+end;
+
+procedure TfrmPrincipal.SpeedButton1Click(Sender: TObject);
+begin
+
 end;
 
 end.

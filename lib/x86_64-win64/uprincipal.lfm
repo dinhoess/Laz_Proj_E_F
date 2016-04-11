@@ -1,7 +1,7 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 265
+  Left = 362
   Height = 463
-  Top = 205
+  Top = 143
   Width = 1024
   Caption = 'frmPrincipal'
   ClientHeight = 443
@@ -151,6 +151,7 @@ object frmPrincipal: TfrmPrincipal
       0000000000000000000000000000000000000000000000000000
     }
     Layout = blGlyphTop
+    OnClick = SpeedButton1Click
   end
   object SpeedButton2: TSpeedButton
     Cursor = crHandPoint
@@ -585,8 +586,7 @@ object frmPrincipal: TfrmPrincipal
     Width = 105
   end
   object ImageList1: TImageList
-    left = 408
-    top = 184
+    left = 648
     Bitmap = {
       4C69080000001000000010000000000000000000000000000000000000000000
       0000000000000000000001A7E63001A6E52E0000000000000000000000000000
@@ -849,8 +849,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object MainMenu1: TMainMenu
     Images = ImageList1
-    left = 312
-    top = 128
+    left = 728
     object MenuItem1: TMenuItem
       Caption = 'Cadastro'
       object MenuItem2: TMenuItem

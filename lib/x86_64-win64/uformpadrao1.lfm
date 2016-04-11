@@ -1,7 +1,7 @@
 object frmPadrao1: TfrmPadrao1
-  Left = 318
+  Left = 311
   Height = 484
-  Top = 172
+  Top = 303
   Width = 1039
   Caption = 'frmPadrao1'
   ClientHeight = 484
@@ -701,6 +701,7 @@ object frmPadrao1: TfrmPadrao1
       Top = 2
       Width = 31
       Align = alLeft
+      Flat = True
     end
   end
 end

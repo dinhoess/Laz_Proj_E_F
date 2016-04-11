@@ -13,15 +13,15 @@ type
   { TfrmPadrao1 }
 
   TfrmPadrao1 = class(TForm)
-    sbtnAnterior: TSpeedButton;
-    sbtnPrimeiro: TSpeedButton;
-    sbtnProximo: TSpeedButton;
-    sbtnUltimo: TSpeedButton;
+    SbtnAnterior: TSpeedButton;
+    SbtnPrimeiro: TSpeedButton;
+    SbtnProximo: TSpeedButton;
+    SbtnUltimo: TSpeedButton;
     SpeedButton1: TSpeedButton;
-    SpeedButton2: TSpeedButton;
-    SpeedButton3: TSpeedButton;
-    SpeedButton5: TSpeedButton;
-    SpeedButton6: TSpeedButton;
+    SbtnDeletar: TSpeedButton;
+    SbtnAlterar: TSpeedButton;
+    SbtnGravar: TSpeedButton;
+    SbtnIncluir: TSpeedButton;
     SpeedButton7: TSpeedButton;
     ToolBar1: TToolBar;
   private
