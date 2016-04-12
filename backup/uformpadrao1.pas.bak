@@ -6,24 +6,24 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Buttons,
-  ComCtrls, DbCtrls;
+  ComCtrls, DbCtrls, StdCtrls;
 
 type
 
   { TfrmPadrao1 }
 
   TfrmPadrao1 = class(TForm)
-    DBNavigator1: TDBNavigator;
-    sbtnAnterior: TSpeedButton;
-    sbtnPrimeiro: TSpeedButton;
-    sbtnProximo: TSpeedButton;
-    sbtnUltimo: TSpeedButton;
-    SpeedButton1: TSpeedButton;
-    SpeedButton3: TSpeedButton;
-    SpeedButton4: TSpeedButton;
-    SpeedButton5: TSpeedButton;
+    SbtnAnterior: TSpeedButton;
+    SbtnPrimeiro: TSpeedButton;
+    SbtnProximo: TSpeedButton;
+    SbtnUltimo: TSpeedButton;
+    SbtnCancelar: TSpeedButton;
+    SbtnDeletar: TSpeedButton;
+    SbtnAlterar: TSpeedButton;
+    SbtnGravar: TSpeedButton;
     SbtnIncluir: TSpeedButton;
-    SpeedButton7: TSpeedButton;
+    SbtnAtualizar: TSpeedButton;
+    StatusBar1: TStatusBar;
     ToolBar1: TToolBar;
   private
     { private declarations }

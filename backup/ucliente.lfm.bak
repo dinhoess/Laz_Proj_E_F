@@ -1,0 +1,161 @@
+inherited frmClientes: TfrmClientes
+  Left = -14
+  Top = 334
+  Width = 1433
+  Caption = 'Clientes'
+  ClientWidth = 1433
+  inherited ToolBar1: TToolBar
+    Width = 1433
+    inherited SbtnAnterior: TSpeedButton
+      Align = alCustom
+    end
+    inherited SbtnPrimeiro: TSpeedButton
+      Align = alCustom
+    end
+    inherited SbtnProximo: TSpeedButton
+      Align = alCustom
+    end
+    inherited SbtnUltimo: TSpeedButton
+      Align = alCustom
+    end
+    inherited SbtnGravar: TSpeedButton
+      Align = alCustom
+      OnClick = SbtnGravarClick
+    end
+    inherited SbtnIncluir: TSpeedButton
+      Align = alCustom
+      OnClick = SbtnIncluirClick
+    end
+    inherited SbtnAtualizar: TSpeedButton
+      Align = alCustom
+    end
+    inherited SbtnCancelar: TSpeedButton
+      Align = alCustom
+      OnClick = SbtnCancelarClick
+    end
+    inherited SbtnDeletar: TSpeedButton
+      Align = alCustom
+    end
+    inherited SbtnAlterar: TSpeedButton
+      Align = alCustom
+      OnClick = SbtnAlterarClick
+    end
+  end
+  inherited StatusBar1: TStatusBar
+    Width = 1433
+  end
+  object Label1: TLabel[2]
+    Left = 20
+    Height = 21
+    Top = 53
+    Width = 61
+    Caption = 'Registro:'
+    Font.Height = -16
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit[3]
+    Left = 92
+    Height = 29
+    Top = 45
+    Width = 128
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Label3: TLabel[4]
+    Left = 236
+    Height = 21
+    Top = 53
+    Width = 94
+    Caption = 'Nome/Razão:'
+    Font.Height = -16
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit[5]
+    Left = 340
+    Height = 29
+    Top = 45
+    Width = 1072
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Edit3: TEdit[6]
+    Left = 92
+    Height = 29
+    Top = 93
+    Width = 424
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Label2: TLabel[7]
+    Left = 20
+    Height = 21
+    Top = 101
+    Width = 30
+    Caption = 'Rua:'
+    Font.Height = -16
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel[8]
+    Left = 524
+    Height = 21
+    Top = 101
+    Width = 61
+    Caption = 'Numero:'
+    Font.Height = -16
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit4: TEdit[9]
+    Left = 596
+    Height = 29
+    Top = 93
+    Width = 112
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Label5: TLabel[10]
+    Left = 732
+    Height = 21
+    Top = 101
+    Width = 45
+    Caption = 'Bairro:'
+    Font.Height = -16
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit5: TEdit[11]
+    Left = 788
+    Height = 29
+    Top = 93
+    Width = 216
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Edit6: TEdit[12]
+    Left = 1092
+    Height = 29
+    Top = 93
+    Width = 320
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Label6: TLabel[13]
+    Left = 1028
+    Height = 21
+    Top = 101
+    Width = 51
+    Caption = 'Cidade:'
+    Font.Height = -16
+    ParentColor = False
+    ParentFont = False
+  end
+end

@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Buttons,
-  Menus;
+  Menus, uCliente;
 
 type
 
@@ -20,12 +20,13 @@ type
     MenuItem3: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem5: TMenuItem;
-    SpeedButton1: TSpeedButton;
+    SbtnShowFormCliente: TSpeedButton;
     SpeedButton2: TSpeedButton;
     SpeedButton3: TSpeedButton;
     SpeedButton4: TSpeedButton;
     SpeedButton5: TSpeedButton;
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
+    procedure SbtnShowFormClienteClick(Sender: TObject);
   private
     { private declarations }
   public
@@ -45,6 +46,14 @@ procedure TfrmPrincipal.FormClose(Sender: TObject; var CloseAction: TCloseAction
   );
 begin
   Application.Terminate;
+end;
+
+procedure TfrmPrincipal.SbtnShowFormClienteClick(Sender: TObject);
+begin
+  frmClientes : TfrmClientes.Create(nil);
+  frmClientes.ShowModal;
+  FreeAndNil(frmClientes);
+
 end;
 
 end.

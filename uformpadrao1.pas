@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Buttons,
-  ComCtrls, DbCtrls;
+  ComCtrls, DbCtrls, StdCtrls;
 
 type
 
@@ -17,12 +17,13 @@ type
     SbtnPrimeiro: TSpeedButton;
     SbtnProximo: TSpeedButton;
     SbtnUltimo: TSpeedButton;
-    SpeedButton1: TSpeedButton;
+    SbtnCancelar: TSpeedButton;
     SbtnDeletar: TSpeedButton;
     SbtnAlterar: TSpeedButton;
     SbtnGravar: TSpeedButton;
     SbtnIncluir: TSpeedButton;
-    SpeedButton7: TSpeedButton;
+    SbtnAtualizar: TSpeedButton;
+    StatusBar1: TStatusBar;
     ToolBar1: TToolBar;
   private
     { private declarations }

@@ -33,7 +33,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="Proj_E_F.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -62,6 +62,14 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFormPadrao1"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="ucliente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCliente"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

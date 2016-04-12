@@ -1,7 +1,7 @@
 object frmPadrao1: TfrmPadrao1
-  Left = 311
+  Left = 327
   Height = 484
-  Top = 303
+  Top = 192
   Width = 1039
   Caption = 'frmPadrao1'
   ClientHeight = 484
@@ -15,7 +15,7 @@ object frmPadrao1: TfrmPadrao1
     Color = 11991804
     ParentColor = False
     TabOrder = 0
-    object sbtnAnterior: TSpeedButton
+    object SbtnAnterior: TSpeedButton
       Left = 32
       Height = 30
       Top = 2
@@ -99,7 +99,7 @@ object frmPadrao1: TfrmPadrao1
         E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540
       }
     end
-    object sbtnPrimeiro: TSpeedButton
+    object SbtnPrimeiro: TSpeedButton
       Left = 1
       Height = 30
       Top = 2
@@ -183,7 +183,7 @@ object frmPadrao1: TfrmPadrao1
         CC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80
       }
     end
-    object sbtnProximo: TSpeedButton
+    object SbtnProximo: TSpeedButton
       Left = 63
       Height = 30
       Top = 2
@@ -267,7 +267,7 @@ object frmPadrao1: TfrmPadrao1
         CC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80
       }
     end
-    object sbtnUltimo: TSpeedButton
+    object SbtnUltimo: TSpeedButton
       Left = 94
       Height = 30
       Top = 2
@@ -351,7 +351,7 @@ object frmPadrao1: TfrmPadrao1
         CC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80
       }
     end
-    object SpeedButton5: TSpeedButton
+    object SbtnGravar: TSpeedButton
       Left = 218
       Height = 30
       Top = 2
@@ -519,7 +519,7 @@ object frmPadrao1: TfrmPadrao1
         E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540
       }
     end
-    object SpeedButton7: TSpeedButton
+    object SbtnAtualizar: TSpeedButton
       Left = 280
       Height = 30
       Top = 2
@@ -603,7 +603,7 @@ object frmPadrao1: TfrmPadrao1
         E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540
       }
     end
-    object SpeedButton1: TSpeedButton
+    object SbtnCancelar: TSpeedButton
       Left = 249
       Height = 30
       Top = 2
@@ -687,7 +687,7 @@ object frmPadrao1: TfrmPadrao1
         CC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80CCCCCC80
       }
     end
-    object SpeedButton3: TSpeedButton
+    object SbtnDeletar: TSpeedButton
       Left = 156
       Height = 30
       Top = 2
@@ -771,7 +771,7 @@ object frmPadrao1: TfrmPadrao1
         E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540E5E5E540
       }
     end
-    object SpeedButton4: TSpeedButton
+    object SbtnAlterar: TSpeedButton
       Left = 187
       Height = 30
       Top = 2
@@ -856,21 +856,21 @@ object frmPadrao1: TfrmPadrao1
       }
     end
   end
-  object DBNavigator1: TDBNavigator
-    Left = 8
-    Height = 25
-    Top = 88
-    Width = 241
-    BevelOuter = bvNone
-    ChildSizing.EnlargeHorizontal = crsScaleChilds
-    ChildSizing.EnlargeVertical = crsScaleChilds
-    ChildSizing.ShrinkHorizontal = crsScaleChilds
-    ChildSizing.ShrinkVertical = crsScaleChilds
-    ChildSizing.Layout = cclLeftToRightThenTopToBottom
-    ChildSizing.ControlsPerLine = 100
-    ClientHeight = 25
-    ClientWidth = 241
-    Options = []
-    TabOrder = 1
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 461
+    Width = 1039
+    Panels = <    
+      item
+        Width = 400
+      end    
+      item
+        Width = 250
+      end    
+      item
+        Width = 600
+      end>
+    SimplePanel = False
   end
 end

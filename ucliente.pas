@@ -1,0 +1,102 @@
+unit uCliente;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ComCtrls,
+  Buttons, StdCtrls, uFormPadrao1;
+
+type
+
+  { TfrmClientes }
+
+  TfrmClientes = class(TfrmPadrao1)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    SpeedButton1: TSpeedButton;
+    procedure SbtnAlterarClick(Sender: TObject);
+    procedure SbtnCancelarClick(Sender: TObject);
+    procedure SbtnGravarClick(Sender: TObject);
+    procedure SbtnIncluirClick(Sender: TObject);
+    procedure incluindoRegistros;
+    procedure salvandoRegistro;
+    procedure SpeedButton1Click(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  frmClientes: TfrmClientes;
+
+implementation
+
+{$R *.lfm}
+
+{ TfrmClientes }
+
+procedure TfrmClientes.SbtnAlterarClick(Sender: TObject);
+begin
+  incluindoRegistros;
+end;
+
+procedure TfrmClientes.SbtnCancelarClick(Sender: TObject);
+begin
+  salvandoRegistro;
+end;
+
+procedure TfrmClientes.SbtnGravarClick(Sender: TObject);
+begin
+  salvandoRegistro;
+end;
+
+procedure TfrmClientes.SbtnIncluirClick(Sender: TObject);
+begin
+ incluindoRegistros;
+end;
+
+procedure TfrmClientes.incluindoRegistros;
+begin
+  SbtnDeletar.Visible    := False;
+  SbtnIncluir.Visible    := False;
+  SbtnAlterar.Visible    := False;
+  SbtnAnterior.Visible   := False;
+  SbtnPrimeiro.Visible   := False;
+  SbtnProximo.Visible    := False;
+  SbtnUltimo.Visible     := False;
+  SbtnAtualizar.Visible  := False;
+
+end;
+
+procedure TfrmClientes.salvandoRegistro;
+begin
+  SbtnDeletar.Visible    := True;
+  SbtnIncluir.Visible    := true;
+  SbtnAlterar.Visible    := true;
+  SbtnAnterior.Visible   := true;
+  SbtnPrimeiro.Visible   := true;
+  SbtnProximo.Visible    := true;
+  SbtnUltimo.Visible     := true;
+  SbtnAtualizar.Visible  := true;
+end;
+
+procedure TfrmClientes.SpeedButton1Click(Sender: TObject);
+begin
+  close;
+end;
+
+end.
+

@@ -4,12 +4,12 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="Proj_E_F.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="41"/>
       </Unit0>
       <Unit1>
         <Filename Value="ulogin.pas"/>
@@ -20,7 +20,7 @@
         <UnitName Value="uLogin"/>
         <TopLine Value="22"/>
         <CursorPos X="28" Y="41"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="41"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -31,10 +31,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="28"/>
-        <CursorPos X="91" Y="54"/>
-        <UsageCount Value="29"/>
+        <TopLine Value="31"/>
+        <CursorPos X="62" Y="55"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -45,101 +46,145 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFormPadrao1"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="37"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ucliente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uCliente"/>
         <EditorIndex Value="2"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="73"/>
+        <CursorPos X="9" Y="98"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit3>
+      </Unit4>
     </Units>
-    <JumpHistory Count="23" HistoryIndex="22">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="ulogin.pas"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="42" Column="22" TopLine="13"/>
       </Position1>
       <Position2>
-        <Filename Value="uprincipal.pas"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="43" Column="22" TopLine="14"/>
       </Position2>
       <Position3>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="41" Column="24" TopLine="15"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="42" Column="22" TopLine="14"/>
       </Position3>
       <Position4>
-        <Filename Value="uprincipal.pas"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="43" Column="22" TopLine="14"/>
       </Position4>
       <Position5>
-        <Filename Value="ulogin.pas"/>
-        <Caret Line="47" Column="17" TopLine="21"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="44" Column="22" TopLine="15"/>
       </Position5>
       <Position6>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="35" Column="24" TopLine="10"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="45" Column="22" TopLine="16"/>
       </Position6>
       <Position7>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="36" Column="24" TopLine="10"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="46" Column="22" TopLine="17"/>
       </Position7>
       <Position8>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="38" Column="24" TopLine="11"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="47" Column="22" TopLine="18"/>
       </Position8>
       <Position9>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="39" Column="24" TopLine="11"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="48" Column="22" TopLine="19"/>
       </Position9>
       <Position10>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="40" Column="24" TopLine="11"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="49" Column="22" TopLine="20"/>
       </Position10>
       <Position11>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="41" Column="24" TopLine="12"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="50" Column="22" TopLine="21"/>
       </Position11>
       <Position12>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="42" Column="24" TopLine="13"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="51" Column="22" TopLine="22"/>
       </Position12>
       <Position13>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="43" Column="24" TopLine="14"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="50" Column="22" TopLine="22"/>
       </Position13>
       <Position14>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="42" Column="24" TopLine="14"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="49" Column="22" TopLine="21"/>
       </Position14>
       <Position15>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="43" Column="24" TopLine="14"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="48" Column="22" TopLine="20"/>
       </Position15>
       <Position16>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="44" Column="24" TopLine="15"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="47" Column="22" TopLine="20"/>
       </Position16>
       <Position17>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="43" Column="24" TopLine="15"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="46" Column="22" TopLine="19"/>
       </Position17>
       <Position18>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="44" Column="24" TopLine="15"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="45" Column="22" TopLine="19"/>
       </Position18>
       <Position19>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="45" Column="24" TopLine="16"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="44" Column="22" TopLine="19"/>
       </Position19>
       <Position20>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="46" Column="24" TopLine="17"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="43" Column="22" TopLine="18"/>
       </Position20>
       <Position21>
-        <Filename Value="uformpadrao1.pas"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="42" Column="22" TopLine="17"/>
       </Position21>
       <Position22>
-        <Filename Value="uprincipal.pas"/>
-        <Caret Line="48" Column="24" TopLine="19"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="41" Column="22" TopLine="17"/>
       </Position22>
       <Position23>
-        <Filename Value="uformpadrao1.pas"/>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="40" Column="22" TopLine="16"/>
       </Position23>
+      <Position24>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="39" Column="22" TopLine="16"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="51" Column="22" TopLine="22"/>
+      </Position25>
+      <Position26>
+        <Filename Value="ucliente.pas"/>
+        <Caret Line="53" Column="22" TopLine="23"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="54" Column="91"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="9" Column="18" TopLine="28"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="54" Column="3" TopLine="28"/>
+      </Position29>
+      <Position30>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="55" Column="27" TopLine="29"/>
+      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

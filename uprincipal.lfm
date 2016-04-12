@@ -1,7 +1,7 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 362
+  Left = 217
   Height = 463
-  Top = 143
+  Top = 252
   Width = 1024
   Caption = 'frmPrincipal'
   ClientHeight = 443
@@ -9,7 +9,7 @@ object frmPrincipal: TfrmPrincipal
   Menu = MainMenu1
   OnClose = FormClose
   LCLVersion = '1.6.0.4'
-  object SpeedButton1: TSpeedButton
+  object SbtnShowFormCliente: TSpeedButton
     Cursor = crHandPoint
     Left = 0
     Height = 80
@@ -151,7 +151,7 @@ object frmPrincipal: TfrmPrincipal
       0000000000000000000000000000000000000000000000000000
     }
     Layout = blGlyphTop
-    OnClick = SpeedButton1Click
+    OnClick = SbtnShowFormClienteClick
   end
   object SpeedButton2: TSpeedButton
     Cursor = crHandPoint
